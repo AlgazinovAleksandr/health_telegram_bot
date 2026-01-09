@@ -1,5 +1,9 @@
 # Byte-compiled / optimized / DLL files
+bot_archives/
+sandbox.ipynb
 __pycache__/
+stats.png 
+temp_stats.png
 *.py[codz]
 *$py.class
 
