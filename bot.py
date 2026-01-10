@@ -394,10 +394,10 @@ async def profile_city(message: types.Message, state: FSMContext):
     await state.clear()
     # Формула для показа пользователю
     formula_text = (
-        f"Формула для расчета калорий: 10 * weight + 6.25 * height - 5 * age + high_minutes * 8 + low_minutes * 3\n"
+        f"Формула для расчета калорий: 10 x weight + 6.25 x height - 5 x age + high_minutes x 8 + low_minutes x 3\n"
         f"Итог: {int(bmr)} + {int(activity_kcal)} = {calorie_norm} калорий в день\n\n"
-        f"Формула для расчета воды: weight * 30 + (high_minutes / 30) * 300 + (low_minutes / 30) * 150."
-        f"И еще + 500 мл, если в твоем городе жарко (температура выше 25 градусоы)\n"
+        f"Формула для расчета воды: weight x 30 + (high_minutes / 30) x 300 + (low_minutes / 30) x 150.\n"
+        f"И еще + 500 мл, если в твоем городе жарко (температура выше 25 градусов)\n"
         f"Итог: {base_water} мл воды в день"
     )
 
